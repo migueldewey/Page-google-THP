@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* head bar*/
+#head_bar {
+  float: right;
+}
+
+#head_bar li {
+  display: inline-block;
+  padding: 10px;
+}
+
+#head_bar #sign_in {
+  background: blue; 
+  margin-right: 25px;
+  padding: 7px 15px;
+  border-radius: 5px; 
+  font-weight: bold;
+}
+
+a 
+{
+  text-decoration: none;
+  color: inherit;
+}
+li.head_droite a:hover 
+{
+  text-decoration: underline;
+}
+
+#sign_in:hover 
+{ 
+  box-shadow: 1px 1px 5px white;
+}
+
+#sign_in {
+  color: white;
+}
+
+/* Logo google */
+.google #google_logo {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.recherche {
+  text-align: center;
+}
+
+#bare_recherche { 
+  width: 450px;
+  line-height: 10px;
+  padding: 20px 100px;
+  border-radius: 30px; 
+  border-color: gray;
+}
+
+.butons {
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 170px;
+  border-radius: 30px;
+}
+
+/* Pied de page */
+footer  {
+  background: gray;
+  border-top: solid 2px gray;
+  bottom: 0;
+  padding-bottom: 0;
+  width: 100%;
+}
+
+footer ul li {
+  display: inline;
+  color: gray;
+  font-size: 14px;
+  padding: 10px;
+}
+
+footer ul {
+  float: left;
+  padding: 1px;
+}
+
+footer ul a:hover {
+  text-decoration: underline;
+}
+
+.pied_droite {
+  float: right;
+}
